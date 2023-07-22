@@ -9,7 +9,14 @@ datasource db {
 }
 
 model User {
-  name     String
-  email    String @id
-  password String
+  id        String    @id @default(uuid())
+  name      String
+  email     String    @unique
+  password  String
+  authLevel AuthLevel @default(USER)
+}
+
+enum AuthLevel {
+  USER
+  ADMIN
 }

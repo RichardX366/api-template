@@ -10,7 +10,8 @@ services:
       - traefik.enable=true
       - traefik.http.routers.APP_NAME.rule=Host(`APP_NAME.richardx.win`)
     environment:
-      - KEY=$KEY
+      - DATABASE_URL=$DATABASE_URL
+      - JWT_SECRET=$JWT_SECRET
 
 networks:
   default:
