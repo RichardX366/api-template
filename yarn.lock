@@ -118,18 +118,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/cookies@npm:^0.7.7":
-  version: 0.7.7
-  resolution: "@types/cookies@npm:0.7.7"
-  dependencies:
-    "@types/connect": "*"
-    "@types/express": "*"
-    "@types/keygrip": "*"
-    "@types/node": "*"
-  checksum: d3759efc1182cb0651808570ae13638677b67b0ea724eef7b174e58ffe6ea044b62c7c2715e532f76f88fce4dd8101ed32ac6fbb73226db654017924e8a2a1e6
-  languageName: node
-  linkType: hard
-
 "@types/crypto-js@npm:^4.1.1":
   version: 4.1.1
   resolution: "@types/crypto-js@npm:4.1.1"
@@ -167,13 +155,6 @@ __metadata:
   dependencies:
     "@types/node": "*"
   checksum: 3bb8d40e78d7eb53e427db6e9f0f22e0890cfee80965dcf741d08341814913afb211306de6e9847c6d241cc8e36f8a59090cbfdcc510ab7c81af9d650c5afe0e
-  languageName: node
-  linkType: hard
-
-"@types/keygrip@npm:*":
-  version: 1.0.2
-  resolution: "@types/keygrip@npm:1.0.2"
-  checksum: 60bc2738a4f107070ee3d96f44709cb38f3a96c7ccabab09f56c1b2b4d85f869fd8fb9f1f2937e863d0e9e781f005c2223b823bf32b859185b4f52370c352669
   languageName: node
   linkType: hard
 
@@ -256,18 +237,16 @@ __metadata:
     "@prisma/client": ^4.15.0
     "@sendgrid/mail": ^7.7.0
     "@types/bcryptjs": ^2.4.2
-    "@types/cookies": ^0.7.7
     "@types/crypto-js": ^4.1.1
     "@types/express": ^4.17.17
     "@types/jsonwebtoken": ^9.0.2
     "@types/node": 16.11.49
     bcryptjs: ^2.4.3
-    cookies: ^0.8.0
     crypto-js: ^4.1.1
     express: 4.18.1
     jsonwebtoken: ^9.0.0
     prisma: ^4.15.0
-    rx-express-middleware: ^1.0.10
+    rx-express-middleware: ^1.1.0
     typescript: 4.7.4
   languageName: unknown
   linkType: soft
@@ -392,16 +371,6 @@ __metadata:
   version: 0.5.0
   resolution: "cookie@npm:0.5.0"
   checksum: 1f4bd2ca5765f8c9689a7e8954183f5332139eb72b6ff783d8947032ec1fdf43109852c178e21a953a30c0dd42257828185be01b49d1eb1a67fd054ca588a180
-  languageName: node
-  linkType: hard
-
-"cookies@npm:^0.8.0":
-  version: 0.8.0
-  resolution: "cookies@npm:0.8.0"
-  dependencies:
-    depd: ~2.0.0
-    keygrip: ~1.1.0
-  checksum: 806055a44f128705265b1bc6a853058da18bf80dea3654ad99be20985b1fa1b14f86c1eef73644aab8071241f8a78acd57202b54c4c5c70769fc694fbb9c4edc
   languageName: node
   linkType: hard
 
@@ -686,15 +655,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"keygrip@npm:~1.1.0":
-  version: 1.1.0
-  resolution: "keygrip@npm:1.1.0"
-  dependencies:
-    tsscmp: 1.0.6
-  checksum: 078cd16a463d187121f0a27c1c9c95c52ad392b620f823431689f345a0501132cee60f6e96914b07d570105af470b96960402accd6c48a0b1f3cd8fac4fa2cae
-  languageName: node
-  linkType: hard
-
 "lodash@npm:^4.17.21":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
@@ -894,9 +854,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rx-express-middleware@npm:^1.0.10":
-  version: 1.0.10
-  resolution: "rx-express-middleware@npm:1.0.10"
+"rx-express-middleware@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "rx-express-middleware@npm:1.1.0"
   dependencies:
     "@prisma/client": 4.6.1
     "@types/cookie-parser": ^1.4.3
@@ -908,7 +868,7 @@ __metadata:
   peerDependencies:
     "@prisma/client": ^4.6.1
     prisma: ^4.6.1
-  checksum: ef09fadf670115b316849d2965b61ce1f851ca34322e943360264a2025da48a469cb00029f99a7e1b4b3aac5d477a39830b6ccb8a6f2751e7bf1678da00bb40e
+  checksum: c990571f0392c21381ce0fb71ce44c5cac1e042b55c2adc8f4cb608d3a091cd26afc3ae5d396aad694334d830f896615dea6d9c2bcca94996ede08499ede3279
   languageName: node
   linkType: hard
 
@@ -1006,13 +966,6 @@ __metadata:
   version: 1.0.1
   resolution: "toidentifier@npm:1.0.1"
   checksum: 952c29e2a85d7123239b5cfdd889a0dde47ab0497f0913d70588f19c53f7e0b5327c95f4651e413c74b785147f9637b17410ac8c846d5d4a20a5a33eb6dc3a45
-  languageName: node
-  linkType: hard
-
-"tsscmp@npm:1.0.6":
-  version: 1.0.6
-  resolution: "tsscmp@npm:1.0.6"
-  checksum: 1512384def36bccc9125cabbd4c3b0e68608d7ee08127ceaa0b84a71797263f1a01c7f82fa69be8a3bd3c1396e2965d2f7b52d581d3a5eeaf3967fbc52e3b3bf
   languageName: node
   linkType: hard
 
